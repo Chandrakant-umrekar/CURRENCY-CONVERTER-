@@ -9,7 +9,7 @@ function useCurrencyInfo(from, to) {
                 {
                     method: 'GET',
                     headers: {
-                        'X-RapidAPI-Key': "765f912d08msh642f0fd4dff5b29p1a8d01jsn9b823472c92d",
+                        'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
                         'X-RapidAPI-Host': 'currency-conversion-and-exchange-rates.p.rapidapi.com',
                     },
                 }
